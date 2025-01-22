@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ambientes Incríveis</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(120, 129, 126);
+        color: black;
+        text-align: center;
+    }
+
+    .container {
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: aliceblue;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+
+    .imagem {
+        max-width: 100%;
+        height: auto;
+    }
+
+    h1 {
+        color: #1b1b1b;
+        letter-spacing: 3px;
+        font-size: 2, 375em;
+    }
+
+    p {
+        font-size: 1.1em;
+        line-height: 1.6;
+        color: #282828;
+    }
+
+    .laranja {
+        color: #f99900;
+    }
+
+    a:hover {
+        color: #767676;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    /* responsividade */
+    @media (max-width: 768px) {
+        h1 {
+            font-size: 1.8em;
+        }
+
+        p {
+            font-size: 1em;
+        }
+
+        a {
+            font-size: 1em;
+        }
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="imagem">
+            <img src="topo.jpg" alt="imagem iliustrativa de uma pessoa em um ambiente">
+            <h1>Ambientes <span class="laranja">únicos</span> para você!</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius
+                at rem eaque, iste tempora molestias consequuntur. Pariatur earum
+                dolorum nulla cum cumque mollitia tempore deleniti natus, ipsum,
+                aspernatur corporis officia.</p>
+        </div>
+        <div class="footer">
+            <a class="laranja" href="#">Instagram</a>
+            <a class="laranja" href="#">Fala Conosco</a>
+        </div>
+    </div>
+</body>
+
+</html>
